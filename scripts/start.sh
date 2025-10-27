@@ -1,11 +1,8 @@
 #!/bin/bash
 
-# Source port configuration if exists
-[ -f ".ports.env" ] && source .ports.env
-
-# Port configuration with fallbacks
-SERVER_PORT=${BACKEND_PORT:-8000}
-CLIENT_PORT=${FRONTEND_PORT:-5173}
+# Port configuration
+SERVER_PORT=8000
+CLIENT_PORT=5173
 
 # Colors for output
 GREEN='\033[0;32m'

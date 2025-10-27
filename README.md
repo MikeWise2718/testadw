@@ -1,6 +1,7 @@
 # Test ADW
 - THis script is for testing deployment on ADW
-- It is based from scripts and code extracted from tac-07
+- It is based from scripts and code extracted from Tac06 
+   - did Tac07 by mistake at first, reverted to Tac06
    - `.claude` directory (including commands and settings)
    - `adws` directory (python scripts driving top level loop)
    - `scripts` directory
@@ -12,7 +13,7 @@
 
 # To use it
   -  Run the monitoring script
-      - `cd adws`
+      - `cd adws\adw_triggers`
       - `uv run trigger_cron.py`
   -  It will automatically process:
      - New issues with no comments
